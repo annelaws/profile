@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo|Ubuntu+Condensed&display=swap');
+
+body {
+ font-family: "Ubuntu Condensed";
+ background-color: #dfdfdf;
+ font-size: 18px;
+ line-height: 25px;
+}
+
+h1, h2 {
+  color: #005542;
+  font-family: Archivo
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 15px;
+
+}
+
+h1 {
+  font-size: 30px;
+}
+
+a:hover {
+  color: #ffbe00;
+}
+
+a {
+  color: #1c819e;
+  text-decoration: none;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px grey;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+.img_round {
+  border-radius: 50%;
+  width: 120px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.list-inline >li {
+  list-style: none;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 2px 2px 3px grey;
+  border-radius:15px;
+  margin: 5px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+
+.btn-blue {
+  background-color: #1c819e;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 18px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.btn-blue:hover {
+  background-color: #ffbe00;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    padding: 20px;
+    margin: 15px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    padding: 20px;
+    margin: 15px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    padding: 20px;
+    margin: 15px auto;
+  }
+}
+
