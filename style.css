@@ -95,6 +95,7 @@ a {
   .container {
     padding: 20px;
     margin: 15px auto;
+    width: 300px;
   }
 }
 
